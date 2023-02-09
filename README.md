@@ -1,18 +1,18 @@
 # twitter
 
 <h1>Twitter_followers.py</h1>
-<p>Twitter_followers uses Tweepy to live-write a CSV with the followers of any given Twitter user—so that if operation is stopped, the CSV will be rendered up to the last follower loop. It returns a CS with the following publicly available follower data:</p>
-<ul>
-  <li>ID</li>
-  <li>Username</li>
-  <li>Name</li>
-  <li>Location—this is a user's self-reported, uncleaned, location</li>
-  <li>City (using tweo)—Tableau compliant</li>
-  <li>State (using tweo)—Tableau compliant</li>
-  <li>Country (using tweo)—Tableau compliant</li>
-  <li>Verified status (whether or not the follower is verified)</li>
-  <li>Follower count (the # followers of the follower)</li>
- 
+  <p>Twitter_followers uses Tweepy to live-write a CSV with the followers of any given Twitter user—so that if operation is stopped, the CSV will be rendered up to the last follower loop. It returns a CS with the following publicly available follower data:</p>
+  <ul>
+    <li>ID</li>
+    <li>Username</li>
+    <li>Name</li>
+    <li>Location—this is a user's self-reported, uncleaned, location</li>
+    <li>City (using tweo)—Tableau compliant</li>
+    <li>State (using tweo)—Tableau compliant</li>
+    <li>Country (using tweo)—Tableau compliant</li>
+    <li>Verified status (whether or not the follower is verified)</li>
+    <li>Follower count (the # followers of the follower)</li>
+
 
 <h1>Tweo</h1>
   <p>Tweo is a rather heavy module that takes the follower's self-reported location string (e.g., 'Living the life in Washington, DC') and returns a dictionary with Tableau-compliant city, state(/province), and country data.</p>
