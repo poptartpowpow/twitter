@@ -1,5 +1,3 @@
-# twitter
-
 <h1>Twitter_followers.py</h1>
   <p>Twitter_followers uses Tweepy to live-write a CSV with the followers of any given Twitter user—so that if operation is stopped, the CSV will be rendered up to the last follower loop. It returns a CSV with the following publicly available follower data:</p>
   <ul>
