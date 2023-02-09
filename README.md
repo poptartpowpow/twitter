@@ -1,3 +1,3 @@
 # twitter
 
-Get_twitter_followers uses Tweepy to get the followers of a user, referencing the Tweo module to parse self-reported user locations.
+Twitter_followers uses Tweepy to get the followers of a user, referencing the Tweo module to parse self-reported user locations.
