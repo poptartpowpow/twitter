@@ -16,6 +16,7 @@
 
 <h1>Tweo</h1>
   <p>Tweo is a rather heavy module that takes the follower's self-reported location string (e.g., 'Living the life in Washington, DC') and returns a dictionary with Tableau-compliant city, state(/province), and country data.</p>
+  <p>This module adds considerable time to Twitter_followers—but, due to Twitter API rate limits, will not ultimately slow down any requests, as they are heavily rate limited. 
   <p>Because users may list multiple locations, the parse_location function iterates through each possible locaiton even after a match has been found. Code is also written to control for multiple places with the same names, so the flow will overwrite erroneous matches.<b> This is by no means a perfect or complete library.</b> It is regularly updated with place names, and they are intentionally input manually to avoid errors. For large datasets, the error rate is within acceptable parameters.</p>
   <p>Feel free to push with additional place names, or suggest a leaner method of looping!</p>
   
