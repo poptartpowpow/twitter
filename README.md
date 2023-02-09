@@ -1,7 +1,7 @@
 # twitter
 
 <h1>Twitter_followers.py</h1>
-  <p>Twitter_followers uses Tweepy to live-write a CSV with the followers of any given Twitter user—so that if operation is stopped, the CSV will be rendered up to the last follower loop. It returns a CS with the following publicly available follower data:</p>
+  <p>Twitter_followers uses Tweepy to live-write a CSV with the followers of any given Twitter user—so that if operation is stopped, the CSV will be rendered up to the last follower loop. It returns a CSV with the following publicly available follower data:</p>
   <ul>
     <li>ID</li>
     <li>Username</li>
@@ -11,7 +11,7 @@
     <li>State (using tweo)—Tableau compliant</li>
     <li>Country (using tweo)—Tableau compliant</li>
     <li>Verified status (whether or not the follower is verified)</li>
-    <li>Follower count (the # followers of the follower)</li>
+    <li>Follower count (the # followers of the follower)</li></ul>
 
 
 <h1>Tweo</h1>
