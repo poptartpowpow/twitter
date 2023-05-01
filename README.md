@@ -1,3 +1,6 @@
+<h1>Welcome!</h1>
+<h4>For an example of how to utilize this program to create network visualizations in Tableau, check out this <a href="https://public.tableau.com/app/profile/caroline.steel/viz/SampleTwitterNetworkAnalysis/ASGsTwitterNetworks">sample Tableau project</a></h4>
+
 <h1>Twitter_followers.py</h1>
   <p>Twitter_followers hooks into the Twitter API via Tweepy and live-writes a CSV with the followers of any given Twitter user(so that if operation is stopped, the CSV will be rendered up to the last follower loop). It returns a CSV with the following publicly available follower data:</p>
   <ul>
